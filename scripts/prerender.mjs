@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const distDir = path.resolve(__dirname, '../dist')
-const SITE_URL = 'https://coworkingspaceinadgm.aegiscoworking.ae'
+const SITE_URL = 'https://coworkingspaceinadgm.com'
 const today = new Date().toISOString().split('T')[0]
 
 // ---- 1. Template: inline the CSS (one page = one stylesheet, so inlining
