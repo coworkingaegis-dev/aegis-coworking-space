@@ -13,7 +13,7 @@ import meetingRoomImg from '../assets/meeting-room-adgm-abu-dhabi.webp'
 import virtualOfficeImg from '../assets/aegis-coworking-virtual-office-ADGM-abu-dhabi.webp'
 import boardroomImg from '../assets/Coworking_space_ADGM_AbuDhabi.webp'
 
-export const SITE_URL = 'https://coworkingspaceinadgm.aegiscoworking.ae'
+export const SITE_URL = 'https://coworkingspaceinadgm.com'
 export const MAIN_SITE = 'https://www.aegiscoworking.ae'
 export const PAGE_TITLE = 'Coworking Space in ADGM from AED 1,000/month | Aegis Coworking'
 export const PAGE_DESCRIPTION =
