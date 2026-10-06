@@ -1,0 +1,11 @@
+{
+  "name": "Coworking Space in ADGM — Aegis Coworking",
+  "short_name": "Aegis ADGM",
+  "icons": [
+    { "src": "/web-app-manifest-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/web-app-manifest-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "theme_color": "#1f5c46",
+  "background_color": "#f7f5f0",
+  "display": "standalone"
+}
