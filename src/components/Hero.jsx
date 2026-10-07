@@ -19,9 +19,9 @@ function Hero() {
           </h1>
 
           <p className="hero-lead hl" style={{ '--d': 2 }}>
-            Flexible office space in ADGM: rent desk space in ADGM by the day or month, from a flexi
-            desk to a private office — with a registered ADGM address, ADGM-ready lease paperwork and
-            24/7 access. No deposit, no setup fees.
+            Starting your first company in ADGM? Rent desk space in ADGM that matches what your licence needs —
+            from a flexi desk to a dedicated desk with a registered ADGM address — with ADGM-ready lease
+            paperwork and room to grow into a private office. No deposit, no setup fees.
           </p>
 
           <div className="hero-ctas hl" style={{ '--d': 3 }}>
@@ -53,8 +53,7 @@ function Hero() {
             />
           </div>
           <figcaption className="arch-caption">
-            Every dedicated desk includes a registered ADGM business address.{' '}
-            <a href={`${MAIN_SITE}/office-space`}>See desk details</a>
+            Every dedicated desk includes a registered ADGM business address.
           </figcaption>
         </figure>
       </div>
@@ -62,7 +61,7 @@ function Hero() {
       <div className="hero-terms">
         <p>
           Aegis Coworking is an office space provider in ADGM offering coworking space in Addax Tower and
-          on Al Reem Island — hot desk, a flexi desk in ADGM, dedicated desk, private office and
+          on Al Reem Island — hot desks, a flexi desk in ADGM, dedicated desks, private offices and
           cheap desk space in ADGM with a day pass from AED 100.
         </p>
       </div>
