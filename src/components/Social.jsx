@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { testimonials, relatedBlogs, faqs, BUSINESS, MAIN_SITE } from '../data/content'
+import { PhoneLink } from './Navbar'
 
 export function Testimonials() {
   const [i, setI] = useState(0)
@@ -94,7 +95,7 @@ export function FinalCTA() {
             <a className="btn btn-brass" href={`${BUSINESS.whatsapp}?text=${encodeURIComponent('Hi Aegis, I would like to book a free tour of your coworking space in ADGM.')}`} target="_blank" rel="noopener noreferrer">
               Book a tour on WhatsApp
             </a>
-            <a className="btn btn-line-light" href={BUSINESS.phoneTel}>Call {BUSINESS.phoneDisplay}</a>
+            <PhoneLink className="btn btn-line-light">Call {BUSINESS.phoneDisplay}</PhoneLink>
           </div>
         </div>
       </div>
