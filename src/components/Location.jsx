@@ -13,10 +13,8 @@ function Location() {
         <div className="loc-info">
           <h2 id="loc-title">Coworking space in Addax Tower, Al Reem Island</h2>
           <p className="loc-sub">
-            Addax Tower is one of Al Reem Island's landmark towers and sits inside the ADGM
-            jurisdiction, a short drive from Al Maryah Island's financial district — an easy place to
-            rent desk space in ADGM close to clients, banks and the waterfront.{' '}
-            <a href={`${MAIN_SITE}/blog/is-al-reem-island-part-of-adgm`}>Is Al Reem Island part of ADGM?</a>
+            Addax Tower is on Al Reem Island and sits inside the ADGM jurisdiction — an easy place to
+            rent desk space in ADGM.
           </p>
 
           <dl className="nap">
@@ -33,7 +31,6 @@ function Location() {
 
           <div className="loc-actions">
             <a className="btn btn-green" href={BUSINESS.mapsUrl} target="_blank" rel="noopener noreferrer">Get directions</a>
-            <a className="text-link" href={`${MAIN_SITE}/addax-tower-al-reem-island`}>About the Addax Tower business centre</a>
           </div>
         </div>
 
