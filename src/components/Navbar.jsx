@@ -9,7 +9,6 @@ export const sections = [
   { label: 'ADGM Licence', to: '#licence' },
   { label: 'Amenities', to: '#amenities' },
   { label: 'Location', to: '#location' },
-  { label: 'Guides', to: '#guides' },
   { label: 'FAQ', to: '#faq' }
 ]
 
