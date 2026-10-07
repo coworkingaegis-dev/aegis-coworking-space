@@ -44,17 +44,11 @@ function LicenceMatch() {
               <p className="lp-price">{plan.name} from <strong>{plan.price}</strong> {plan.unit}</p>
               <div className="lp-actions">
                 <a className="btn btn-green" href={`#${plan.id}`}>View this plan</a>
-                <a className="text-link" href={`${MAIN_SITE}/blog/which-adgm-workspace-fits-you`}>Read the decision guide</a>
               </div>
             </div>
           </div>
         </div>
 
-        <p className="licence-note">
-          Hiring? Visa capacity depends on your workspace — see{' '}
-          <a href={`${MAIN_SITE}/blog/adgm-coworking-visa-quota-employees-per-desk`}>ADGM coworking visa quota per desk</a>{' '}
-          and <a href={`${MAIN_SITE}/blog/adgm-fsra-office-requirements`}>office requirements for FSRA-regulated firms</a>.
-        </p>
       </div>
     </section>
   )
