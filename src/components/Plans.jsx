@@ -71,8 +71,8 @@ function Plans() {
         </div>
 
         <p className="plans-foot">
-          Rates as published on <a href={`${MAIN_SITE}/pricing`}>aegiscoworking.ae/pricing</a>. A one-time
-          AED 1,200 due-diligence fee applies to the dedicated desk; ADGM government fees are separate.
+          Published monthly rates. A one-time
+          AED 1,100 due-diligence fee applies to the dedicated desk; ADGM government fees are separate.
         </p>
       </div>
     </section>
