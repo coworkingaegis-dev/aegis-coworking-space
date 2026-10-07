@@ -15,10 +15,10 @@ function Intro() {
           </p>
           <p>
             Aegis Coworking runs its ADGM coworking space and{' '}
-            <a href={`${MAIN_SITE}/addax-tower-al-reem-island`}>business centre in Addax Tower</a> on
+            business centre in Addax Tower on
             Al Reem Island. Reception, cleaning, high-speed internet and utilities are included, so
             freelancers, startups, SMEs and international companies looking for desk space in ADGM can
-            start working in Abu Dhabi the same week — and <a href={`${MAIN_SITE}/pricing`}>upgrade between plans</a> as the team grows.
+            start working in Abu Dhabi the same week — and upgrade between plans as the team grows.
           </p>
         </div>
 
