@@ -130,8 +130,8 @@ export const plans = [
     note: 'Paid annually',
     popular: true,
     terms: [
-      { label: 'Annual', price: 'AED 1,150', note: 'Paid annually' },
-      { label: 'Bi-annual', price: 'AED 1,300', note: 'Paid bi-annually' },
+      { price: 'AED 1,150', note: 'Paid annually' },
+      
     ],
     bestFor: 'ADGM operating licences incl. Tech Start-Up, startups and SMEs',
     features: ['Your own permanent, furnished desk', 'Registered ADGM business address', 'ADGM-compliant lease agreement', '24/7 secure access & lockable storage'],
