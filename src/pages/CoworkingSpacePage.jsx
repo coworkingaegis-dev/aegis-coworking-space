@@ -7,7 +7,7 @@ import Plans from '../components/Plans'
 import LicenceMatch from '../components/LicenceMatch'
 import { WhyAegis, Amenities, Steps } from '../components/WhyAegis'
 import Location from '../components/Location'
-import { Testimonials, Blogs, FAQ, FinalCTA, WhatsAppFab } from '../components/Social'
+import { Testimonials, FAQ, FinalCTA, WhatsAppFab } from '../components/Social'
 import {
   SITE_URL, MAIN_SITE, PAGE_TITLE, PAGE_DESCRIPTION, DATE_PUBLISHED, DATE_MODIFIED,
   BUSINESS, plans, extras, faqs, relatedBlogs,
@@ -140,14 +140,6 @@ const schemaGraph = {
         acceptedAnswer: { '@type': 'Answer', text: f.a },
       })),
     },
-    {
-      '@type': 'ItemList',
-      '@id': `${SITE_URL}/#guides`,
-      name: 'Guides on coworking space in ADGM',
-      itemListElement: relatedBlogs.map((b, i) => ({
-        '@type': 'ListItem', position: i + 1, name: b.title, url: b.url,
-      })),
-    },
   ],
 }
 
@@ -198,7 +190,6 @@ function CoworkingSpacePage() {
         <Steps />
         <Location />
         <Testimonials />
-        <Blogs />
         <FAQ />
         <FinalCTA />
       </main>
