@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BUSINESS, nearby, MAIN_SITE } from '../data/content'
+import { PhoneLink } from './Navbar'
 
 function Location() {
   // Map is a click-to-load facade so the Google Maps iframe (~500 KB of
@@ -20,7 +21,7 @@ function Location() {
 
           <dl className="nap">
             <div><dt>Address</dt><dd>{BUSINESS.name}<br />{BUSINESS.street}, {BUSINESS.city}, {BUSINESS.country}</dd></div>
-            <div><dt>Phone</dt><dd><a href={BUSINESS.phoneTel}>{BUSINESS.phoneDisplay}</a></dd></div>
+            <div><dt>Phone</dt><dd><PhoneLink>{BUSINESS.phoneDisplay}</PhoneLink></dd></div>
             <div><dt>Email</dt><dd><a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a></dd></div>
             <div><dt>Hours</dt><dd>24/7 for members<br />Tours Monday–Friday, 9:00 AM–6:00 PM</dd></div>
           </dl>
