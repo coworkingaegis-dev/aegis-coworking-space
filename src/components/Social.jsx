@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { testimonials, relatedBlogs, faqs, BUSINESS, MAIN_SITE } from '../data/content'
+import { testimonials, faqs, BUSINESS } from '../data/content'
 import { PhoneLink } from './Navbar'
 
 export function Testimonials() {
@@ -32,29 +32,6 @@ export function Testimonials() {
   )
 }
 
-export function Blogs() {
-  return (
-    <section className="blogs" id="guides" aria-labelledby="guides-title">
-      <div className="wrap">
-        <div className="sec-head sec-head-split">
-          <h2 id="guides-title">Guides on coworking space in ADGM</h2>
-          <p>Straight answers on cost, licences, visas and finding cheap desk space in ADGM, from the Aegis Coworking blog. <a href={`${MAIN_SITE}/blogs`}>All articles</a></p>
-        </div>
-        <ul className="blog-list">
-          {relatedBlogs.map((b) => (
-            <li key={b.slug}>
-              <a href={b.url}>
-                <span className="blog-tag">{b.tag}</span>
-                <span className="blog-title">{b.title}</span>
-                <span className="blog-excerpt">{b.excerpt}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  )
-}
 
 export function FAQ() {
   return (
