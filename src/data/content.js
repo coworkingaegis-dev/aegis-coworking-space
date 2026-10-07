@@ -267,7 +267,7 @@ export const relatedBlogs = [
 export const faqs = [
   {
     q: 'How much does a coworking space in ADGM cost at Aegis?',
-    a: 'At Aegis Coworking a day pass costs AED 100 (9 AM–6 PM) or AED 150 for 24 hours, a hot desk (flexi desk) is AED 1,000 per month, a dedicated desk starts at AED 1,150 per month on an annual plan (AED 1,300 bi-annual) and a private office starts at AED 4,500 per month.',
+    a: 'At Aegis Coworking a day pass costs AED 100 (9 AM–6 PM) or AED 150 for 24 hours, a hot desk (flexi desk) is AED 1,000 per month, a dedicated desk starts at AED 1,150 per month and a private office starts at AED 4,500 per month.',
   },
   {
     q: 'Where is the Aegis coworking space in ADGM located?',
