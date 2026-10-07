@@ -280,7 +280,7 @@ export const faqs = [
   },
   {
     q: 'Can I register an ADGM company with a coworking desk?',
-    a: 'Yes. Dedicated desks, private offices and virtual offices at Aegis include a registered business address and ADGM-compliant documents suitable for company registration and licence renewal. Most operating licences, including Tech Start-Up, need a dedicated desk; FSRA-regulated firms generally need a private office.',
+    a: 'Yes. Dedicated desk, private office and virtual office at Aegis include a registered business address and ADGM-compliant documents suitable for company registration and licence renewal. Most operating licences, including Tech Start-Up, need a dedicated desk; FSRA-regulated firms generally need a private office.',
   },
   {
     q: 'What is the difference between a hot desk and a dedicated desk?',
